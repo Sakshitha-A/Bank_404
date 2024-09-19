@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Environment variable files
+.env
+.env.local
+
+# Streamlit temporary files
+.streamlit/
+
+# Logs and debugging files
+*.log
+*.out
+*.err
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# PDF Reader cache files
+*.pdfreader_cache
+
+# TruLens evaluation files
+.trulens/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore other IDE settings
+.idea/
+
+# Ignore coverage reports
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore Chroma vector store files
+chroma/
